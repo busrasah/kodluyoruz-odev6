@@ -1,0 +1,38 @@
+.center {
+    text-align: center;
+
+}
+
+.center-mid {
+   
+    background-color: rgb(236, 233, 233);
+    text-align: center;
+  
+}
+
+.gridTable{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    justify-content: center;
+    width: 100%;
+    gap: 3px; }
+
+    .left,.mid,.right{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .left{
+        background-color: rgb(128, 213, 247);
+    }.mid{
+        background-color: rgb(128, 213, 247);
+    }.right{
+        background-color: rgb(128, 213, 247);
+    }
+    footer{
+        text-align: center;
+     
+      
+    }
